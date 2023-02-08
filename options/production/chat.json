@@ -9,8 +9,9 @@
                 "resolveKeyTexts": ["想我", "想女朋友","想咪咪"],
                 "rejectKeyTexts": ["不"],
                 "rejectHitTexts": [
-                    "猜错了，给你个提示，是个人～",
-                    "你肯定是故意猜错的"
+                    "给你个提示，是个人～",
+                    "你肯定是故意的",
+                    "再想你啦"
                 ]
             }
         }
@@ -43,11 +44,12 @@
         "triggerNextAction": {
             "type": "userInput",
             "options": {
-                "resolveKeyTexts": ["好", "可以"],
+                "resolveKeyTexts": ["好", "可以","行"],
                 "rejectKeyTexts": ["不"],
                 "rejectHitTexts": [
                     "啊这，我是不喜欢拍照，但是喜欢咪咪",
-                    "咪咪陪陪我嘛"
+                    "咪咪陪陪我嘛",
+                    "说好了，多拍合照"
                 ]
             }
         }
@@ -61,8 +63,8 @@
     { "msgs": ["即使是误会也老惹咪咪生气"], "msgInputSpeed": 100 },
     { "msgs": ["不过我确实都不是故意的"], "msgInputSpeed": 100 },
     { "msgs": ["我当然也会慢慢优化"], "msgInputSpeed": 100 },
-    { "msgs": ["很多时候我不知道怎么做"], "msgInputSpeed": 100 },
-    { "msgs": ["我其实也不知道怎么表达自己的喜欢"], "msgInputSpeed": 100 },
+    { "msgs": ["很多时候我不知道该怎么做"], "msgInputSpeed": 100 },
+    { "msgs": ["我其实也不知道该怎么表达自己的喜欢"], "msgInputSpeed": 100 },
     { "msgs": ["我完全不会处理和女朋友相处"], "msgInputSpeed": 100 },
     { "msgs": ["厚脸皮点，希望咪咪宽容我"], "msgInputSpeed": 100 },
     {
@@ -71,12 +73,13 @@
         "triggerNextAction": {
             "type": "userInput",
             "options": {
-                "resolveKeyTexts": ["好", "可以"],
+                "resolveKeyTexts": ["好", "可以","行"],
                 "rejectKeyTexts": ["不"],
                 "rejectHitTexts": [
                     "咪咪大人有大量哇",
                     "我会很聪明学会的，呜哇",
-                    "我希望我能让我们开心"
+                    "我希望我能让我们开心",
+                    "那我自学成才"
                 ]
             }
         }
