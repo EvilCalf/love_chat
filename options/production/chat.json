@@ -6,7 +6,7 @@
         "triggerNextAction": {
             "type": "userInput",
             "options": {
-                "resolveKeyTexts": ["想我", "想女朋友","想咪咪"],
+                "resolveKeyTexts": ["我", "女朋友","咪咪","坏女人"],
                 "rejectKeyTexts": ["不"],
                 "rejectHitTexts": [
                     "给你个提示，是个人～",
