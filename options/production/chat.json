@@ -1,54 +1,112 @@
 [
-    { "msgs": ["Hi，在干嘛呢？"], "msgInputSpeed": 80 },
-    {
-        "msgs": ["知道今天是什么日子吗？"],
-        "msgInputSpeed": 80,
-        "triggerNextAction": {
-            "type": "userInput",
-            "options": {
-                "resolveKeyTexts": ["情人节", "情人", "纪念日"],
-                "rejectKeyTexts": [],
-                "rejectHitTexts": [
-                    "给你提示一下，今天是2022年2月14号喔",
-                    "这都答不出来吗，我要生气了。",
-                    "好吧，看在你应该不是故意的份上告诉你吧，今天是情人节～"
-                ]
-            }
-        }
-    },
+    { "msgs": ["咪咪，在干嘛呢？"], "msgInputSpeed": 100 },
     {
         "msgs": ["知道我现在在想什么吗？"],
-        "msgInputSpeed": 80,
+        "msgInputSpeed": 100,
         "triggerNextAction": {
             "type": "userInput",
             "options": {
-                "resolveKeyTexts": ["想我", "想女朋友"],
-                "rejectKeyTexts": ["不想"],
+                "resolveKeyTexts": ["想我", "想女朋友","想咪咪"],
+                "rejectKeyTexts": ["不"],
                 "rejectHitTexts": [
                     "猜错了，给你个提示，是个人～",
-                    "你肯定是故意猜错的..."
+                    "你肯定是故意猜错的"
                 ]
             }
         }
     },
-    {
-        "msgs": ["我现在当然是在想打游戏", "我现在当然是在想你啦～"],
-        "msgInputSpeed": 80
-    },
     { "msgs": ["什么你才不信？"], "msgInputSpeed": 100 },
-    { "msgs": ["喔还没收到任何礼物？"], "msgInputSpeed": 140 },
-    { "msgs": ["而且人也没到！（逐渐不开心😭）"], "msgInputSpeed": 180 },
-    { "msgs": ["别别别，别生气，我可是有所准备的。"], "msgInputSpeed": 80 },
-    { "msgs": ["礼物已经在路上了喔，人也会到的呢。"], "msgInputSpeed": 80 },
+    { "msgs": ["喔还没收到任何礼物？"], "msgInputSpeed": 100 },
+    { "msgs": ["而且又惹你生气了/(ㄒoㄒ)/~~"], "msgInputSpeed": 100 },
+    { "msgs": ["别别别，别生气了，我是真的没忘呜呜"], "msgInputSpeed": 100 },
+    { "msgs": ["你说我没写过情书"], "msgInputSpeed": 100 },
+    { "msgs": ["我也不知道该怎么写"], "msgInputSpeed": 100 },
+    { "msgs": ["只能以这种我熟悉点的方式"], "msgInputSpeed": 100 },
+    { "msgs": ["这也算情书了吧，而且还能数字化保存"], "msgInputSpeed": 100 },
+    { "msgs": ["一个月不见了📅"], "msgInputSpeed": 100 },
+    { "msgs": ["真的很想咪咪😘"], "msgInputSpeed": 100 },
+    { "msgs": ["一个人冷冷清清"], "msgInputSpeed": 100 },
+    { "msgs": ["今天又惹咪咪生气了"], "msgInputSpeed": 100 },
+    { "msgs": ["对不起是我太笨了"], "msgInputSpeed": 100 },
+    { "msgs": ["<img src='options/production/sorry.png'/>"] },
+    { "msgs": ["我现在已经知道错啦"], "msgInputSpeed": 100 },
+    { "msgs": ["让我看一眼你的照片😘"], "msgInputSpeed": 100 },
+    { "msgs": ["<img src='options/production/mmexport1675831282438.jpg'/>"] },
+    { "msgs": ["再看一眼你回家后的照片"], "msgInputSpeed": 100 },
+    { "msgs": ["<img src='options/production/mmexport1675831261252.jpg'/>"] },
+    { "msgs": ["咪咪还是那么可爱"], "msgInputSpeed": 100 },
+    { "msgs": ["还有和咪咪的合照"], "msgInputSpeed": 100 },
+    { "msgs": ["<img src='options/production/mmexport1668059967732.jpg'/>"] },
     {
-        "msgs": ["而且还有很多想对你说的话，写成了一封信给你。"],
-        "msgInputSpeed": 80
+        "msgs": ["以后要多拍点合照好不好"],
+        "msgInputSpeed": 100,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["好", "可以"],
+                "rejectKeyTexts": ["不"],
+                "rejectHitTexts": [
+                    "啊这，我是不喜欢拍照，但是喜欢咪咪",
+                    "咪咪陪陪我嘛"
+                ]
+            }
+        }
     },
+    { "msgs": ["能认识你是很幸运"], "msgInputSpeed": 100 },
+    { "msgs": ["我一直都很喜欢咪咪"], "msgInputSpeed": 100 },
+    { "msgs": ["也很老实"], "msgInputSpeed": 100 },
+    { "msgs": ["当然我肯定不是啥优秀男朋友"], "msgInputSpeed": 100 },
+    { "msgs": ["我有好多缺点"], "msgInputSpeed": 100 },
+    { "msgs": ["也没有经验"], "msgInputSpeed": 100 },
+    { "msgs": ["即使是误会也老惹咪咪生气"], "msgInputSpeed": 100 },
+    { "msgs": ["不过我确实都不是故意的"], "msgInputSpeed": 100 },
+    { "msgs": ["我当然也会慢慢优化"], "msgInputSpeed": 100 },
+    { "msgs": ["很多时候我不知道怎么做"], "msgInputSpeed": 100 },
+    { "msgs": ["我其实也不知道怎么表达自己的喜欢"], "msgInputSpeed": 100 },
+    { "msgs": ["我完全不会处理和女朋友相处"], "msgInputSpeed": 100 },
+    { "msgs": ["厚脸皮点，希望咪咪宽容我"], "msgInputSpeed": 100 },
     {
-        "msgs": ["<letter src='options/preview/letter.json'/>"],
-        "triggerNextAction": { "type": "componentClose" }
+        "msgs": ["教教我，好不好"],
+        "msgInputSpeed": 100,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["好", "可以"],
+                "rejectKeyTexts": ["不"],
+                "rejectHitTexts": [
+                    "咪咪大人有大量哇",
+                    "我会很聪明学会的，呜哇",
+                    "我希望我能让我们开心"
+                ]
+            }
+        }
     },
-    { "msgs": ["文采怎么样？是不是？"] },
-    { "msgs": ["<img src='options/preview/感动到哭.png'/>"] },
-    { "msgs": ["演示完成..."], "msgInputSpeed": 80 }
+    { "msgs": ["我从没觉得得到咪咪太容易，不珍惜"], "msgInputSpeed": 100 },
+    { "msgs": ["可能从男生的角度会理解我有多开心多珍惜"], "msgInputSpeed": 100 },
+    { "msgs": ["我和男生相处多，思维环境也是"], "msgInputSpeed": 100 },
+    { "msgs": ["是我自己笨，让我们有时候不开心"], "msgInputSpeed": 100 },
+    { "msgs": ["我确实有缺点"], "msgInputSpeed": 100 },
+    { "msgs": ["但我绝对不会骗人"], "msgInputSpeed": 100 },
+    { "msgs": ["而且喜欢你就是喜欢你"], "msgInputSpeed": 100 },
+    { "msgs": ["我喜欢咪咪"], "msgInputSpeed": 100 },
+    { "msgs": ["<img src='options/production/cry.png'/>"] },
+    {
+        "msgs": ["咪咪还在生我气么"],
+        "msgInputSpeed": 100,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["不生气", "不气","不在生气"],
+                "rejectKeyTexts": ["还在","在"],
+                "rejectHitTexts": [
+                    "呜呜呜我知道错了，别和我一般见识了",
+                    "我知道错了",
+                    "以后不会这么笨了"
+                ]
+            }
+        }
+    },
+    { "msgs": ["我会一直加油的😍"], "msgInputSpeed": 100 },
+    { "msgs": ["我希望我们可以开开心心😙"], "msgInputSpeed": 100 },
+    { "msgs": ["我喜欢你咪咪😉"], "msgInputSpeed": 100 }
 ]
